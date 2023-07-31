@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(19, 17, 17);
+ 
+}
+
+.main {
+    width: 1000px;
+    margin: 100px auto;
+    height: 500px;
+    border-radius: 10px;
+    padding: 15px 11px 0px 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.box-content:hover{
+    cursor: pointer;
+}
+.box-content {
+    width: 196px;
+    height: 150px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.color-pick {
+    width: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
